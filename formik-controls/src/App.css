@@ -9,9 +9,8 @@ label {
   margin-bottom: 5px;
 }
 
-input[type='text'],
-input[type='email'],
-select, 
+input,
+select,
 textarea {
   display: block;
   width: 400px;
@@ -23,7 +22,19 @@ textarea {
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px; 
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  margin: 8px 10px;
+}
+
+label[for="email-MOC"],
+label[for="telephone-MOC"] {
+  display: inline-block;
 }
 
 .form-control {

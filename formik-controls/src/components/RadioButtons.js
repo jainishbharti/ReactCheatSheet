@@ -21,11 +21,6 @@ export const RadioButtons = (props) => {
                   checked={field.value === option.value}
                 />
                 <label
-                  style={{
-                    display: "inline",
-                    marginRight: "15px",
-                    marginLeft: "5px",
-                  }}
                   htmlFor={option.value}
                 >
                   {option.key}
